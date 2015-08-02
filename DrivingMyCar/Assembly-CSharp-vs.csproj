@@ -46,12 +46,15 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Car V7\CarControllerV7.cs" />
      <Compile Include="Assets\Car\Sccripts\CameraFollowCar.cs" />
      <Compile Include="Assets\Car\Sccripts\CarController.cs" />
+     <Compile Include="Assets\City\Car City V7\CarControllerV7.cs" />
      <Compile Include="Assets\City\CarInitiate.cs" />
      <Compile Include="Assets\Global\Cash.cs" />
      <Compile Include="Assets\Global\Fame.cs" />
+     <Compile Include="Assets\TopDownArcade\ArcadeCarController.cs" />
+     <Compile Include="Assets\TopDownArcade\Track\RotateTrackArcade.cs" />
+     <Compile Include="Assets\TopDownArcade\onCollisionArcade.cs" />
      <Compile Include="Assets\Workshop\Scripts\DontDestroy.cs" />
      <Compile Include="Assets\Workshop\Scripts\OnCollisionCity.cs" />
      <Compile Include="Assets\Workshop\Scripts\PlayerController.cs" />
