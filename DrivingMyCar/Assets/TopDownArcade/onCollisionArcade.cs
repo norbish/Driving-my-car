@@ -14,6 +14,7 @@ public class onCollisionArcade : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision objects)
 	{
+		if(objects.gameObject.tag == "ArcadeCar")
 		objects.gameObject.SetActive (false);
 	}
 }
